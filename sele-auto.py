@@ -10,4 +10,15 @@ option.add_experimental_option("detach",True)                                   
 service=Service(executable_path="give/path/to/your/downloaded/chromedriver.exe")     # Its important to give the path of "chromedriver.exe" file. 
 driver =webdriver.Chrome(service=service,options=option)
 driver.get("https://quotes.toscrape.com/")
+driver.find_element(By.LINK_TEXT, "Login").click()
+time.sleep(3)                                                                        #to load the webpage
+
+user=driver.find_element(By.ID,"username")
+password=driver.find_element(By.ID,"password")
+user.send_keys('admin')
+password.send_keys('password')
+driver.find_element(By.CSS_SELECTOR,"input.btn-primary").click()
+
+
+
 
