@@ -1,6 +1,6 @@
 selenium-automation:
 
-Selenium is a Powerful tool for automating tasks, testing websites, and scraping data -
+>Selenium is a Powerful tool for automating tasks, testing websites, and scraping data -
 * Navigating to a website
 * Clicking buttons and links
 * Filling out forms
