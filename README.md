@@ -23,6 +23,17 @@ for chrome we need to install "chromedriver"     https://developer.chrome.com/do
 
 for firefox we need to install "Geckodriver"     https://sourceforge.net/projects/geckodriver.mirror/
 
+requirements:
+
+**import libraries by using
+
+pip install library_name
+
+*selenium
+
+*time
+
+
 
 
 
